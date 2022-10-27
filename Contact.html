@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body>
+<nav>
+  <div id="home" class="navbar"
+    <img id="btn" class="icon" src="icons8-menu.gif" alt="">
+
+    <div class="container" id="cont">
+      <h2 id="h2">M.M.B.F</h2>
+
+     
+      <a id="u" href="index.html">Home</a>
+       <a href="About.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="Project.html">My Project</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+  </div>
+  
+    
+  </nav>
+  
+  <div id="Contact" class="container5">
+    <h2>Contact</h2>
+    <hr>
+    <br>
+    <div class="from">
+      <strong>Your Full Name</strong>
+     <input type="text" name="textinput" placeholder="Full Name">
+     <strong>Your Email</strong>
+     <input type="email" name="usremail" id="" placeholder="Email">
+     <strong>Textarea</strong>
+     <textarea name="" id="" cols="30" rows="10" placeholder="Text"></textarea>
+     <button type="submit">Seand</button>
+    </div>
+  </div>
+   <script>
+    let btn = document.getElementById('btn')
+  let cont = document.getElementById('cont')
+  btn.addEventListener('click', function() {
+    cont.classList.toggle('open');
+  })
+  </script>
+
+</body>
+
+</html>
